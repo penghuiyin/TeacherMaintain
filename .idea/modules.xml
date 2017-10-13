@@ -6,8 +6,6 @@
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/lib-zxing1/lib-zxing1.iml" filepath="$PROJECT_DIR$/lib-zxing1/lib-zxing1.iml" />
       <module fileurl="file://$PROJECT_DIR$/zing_xing/zing_xing.iml" filepath="$PROJECT_DIR$/zing_xing/zing_xing.iml" />
-      <module fileurl="file://$PROJECT_DIR$/zing_xing/zing_xing.iml" filepath="$PROJECT_DIR$/zing_xing/zing_xing.iml" />
-      <module fileurl="file://$PROJECT_DIR$/zing_xing2/zing_xing2.iml" filepath="$PROJECT_DIR$/zing_xing2/zing_xing2.iml" />
       <module fileurl="file://$PROJECT_DIR$/zing_xing2/zing_xing2.iml" filepath="$PROJECT_DIR$/zing_xing2/zing_xing2.iml" />
     </modules>
   </component>
