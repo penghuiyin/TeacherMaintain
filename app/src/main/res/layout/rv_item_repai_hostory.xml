@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/touch_bg"
+    android:layout_margin="12dp"
+    >
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        style="@style/AppCardView"
+        >
+<android.support.v7.widget.AppCompatTextView
+    android:layout_width="wrap_content"
+    android:layout_height="36dp"
+    android:text="2017-01-09"
+    android:textSize="@dimen/text_size18_44"
+    android:drawableLeft="@mipmap/wybx_xq_icon_sj"
+    android:textColor="@color/main_black"
+    android:layout_marginLeft="8dp"
+    android:drawablePadding="6dp"
+    android:gravity="center_vertical"
+    />
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_marginTop="37dp"
+    android:layout_height="73dp"
+    android:orientation="vertical"
+    android:gravity="center_vertical"
+    android:paddingLeft="20dp"
+    >
+<android.support.v7.widget.AppCompatTextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="故障：教师"
+    android:textColor="@color/main_black"
+    android:textSize="@dimen/text_size18_44"
+    android:singleLine="true"
+    />
+    <android.support.v7.widget.AppCompatTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="维修员：张三"
+        android:textColor="@color/main_black"
+        android:textSize="@dimen/text_size18_44"
+        android:singleLine="true"
+        android:layout_marginTop="6dp"
+        />
+
+</LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="110dp"
+            android:background="@color/colod9d9d9"
+            android:layout_marginRight="8dp"
+            android:layout_marginLeft="8dp"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginTop="111dp"
+            android:orientation="horizontal"
+            >
+<RelativeLayout
+    android:layout_width="0dp"
+    android:layout_weight="1"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    >
+<ImageView
+    android:id="@+id/iv_deal_time"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="8dp"
+    android:background="@mipmap/bxjd_icon_clsc"
+    />
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/actv_deal_time_number"
+        android:layout_toRightOf="@+id/iv_deal_time"
+        android:layout_below="@+id/actv_deal_time"
+        android:layout_width="60dp"
+        android:gravity="center_horizontal"
+        android:layout_height="wrap_content"
+        android:text="3天"
+        android:textSize="@dimen/text_size14"
+        android:textColor="@color/main_black"
+        android:layout_marginLeft="8dp"
+        />
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/actv_deal_time"
+        android:layout_toRightOf="@+id/iv_deal_time"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="处理时长"
+        android:textSize="@dimen/text_size14"
+        android:textColor="@color/color9999"
+        android:layout_marginLeft="8dp"
+        />
+
+</RelativeLayout>
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                >
+                <ImageView
+                    android:id="@+id/iv_sumit_time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:background="@mipmap/bxjd_icon_tjsj"
+                    />
+                <android.support.v7.widget.AppCompatTextView
+                    android:id="@+id/actv_sumit_time_number"
+                    android:layout_toRightOf="@+id/iv_sumit_time"
+                    android:layout_below="@+id/actv_sumit_time"
+                    android:layout_width="60dp"
+                    android:gravity="center_horizontal"
+                    android:layout_height="wrap_content"
+                    android:text="3天"
+                    android:textSize="@dimen/text_size14"
+                    android:textColor="@color/main_black"
+                    android:layout_marginTop="3dp"
+                    android:layout_marginLeft="8dp"
+
+                    />
+                <android.support.v7.widget.AppCompatTextView
+                    android:id="@+id/actv_sumit_time"
+                    android:layout_toRightOf="@+id/iv_sumit_time"
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="提交时间"
+                    android:textSize="@dimen/text_size14"
+                    android:textColor="@color/color9999"
+                    android:layout_marginLeft="8dp"
+                    />
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                >
+                <ImageView
+                    android:id="@+id/iv_evaluate_time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:background="@mipmap/bxjd_icon_pjzt"
+                    />
+                <android.support.v7.widget.AppCompatTextView
+                    android:id="@+id/actv_evaluate_time_number"
+                    android:layout_toRightOf="@+id/iv_evaluate_time"
+                    android:layout_below="@+id/actv_evaluate_time"
+                    android:layout_width="60dp"
+                    android:gravity="center_horizontal"
+                    android:layout_height="wrap_content"
+                    android:text="3天"
+                    android:textSize="@dimen/text_size14"
+                    android:textColor="@color/main_black"
+                    android:layout_marginLeft="8dp"
+                    />
+                <android.support.v7.widget.AppCompatTextView
+                    android:id="@+id/actv_evaluate_time"
+                    android:layout_toRightOf="@+id/iv_evaluate_time"
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="评价状态"
+                    android:textSize="@dimen/text_size14"
+                    android:textColor="@color/color9999"
+                    android:layout_marginLeft="8dp"
+                    />
+
+            </RelativeLayout>
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>

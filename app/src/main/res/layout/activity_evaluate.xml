@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+    <com.hnrheducation.teachermaintain.view.TitleWidget
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="140dp"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:background="@color/colorebebeb"
+
+            >
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/wybx_pj_tx"
+                />
+
+            <TextView
+                android:id="@+id/tv_sign"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:gravity="center_horizontal"
+                android:text="张三"
+                android:textSize="@dimen/text_size18_44"
+                android:textColor="@color/main_black"
+                android:layout_marginTop="8dp"
+                />
+        </LinearLayout>
+        <android.support.v7.widget.AppCompatEditText
+            android:id="@+id/tv_pj_text"
+            android:layout_width="match_parent"
+            android:layout_marginLeft="12dp"
+            android:layout_marginRight="12dp"
+            android:padding="5dp"
+            android:textSize="16sp"
+            android:layout_alignParentRight="true"
+            android:textCursorDrawable="@null"
+            android:gravity="top"
+            android:hint="请输入评价的内容"
+            android:layout_height="80dp"
+            android:background="@null"
+            />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="12dp"
+        android:background="@color/colorebebeb"
+        />
+        <LinearLayout
+            android:id="@+id/llyt_pj1"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal"
+            android:paddingLeft="10dp"
+            android:gravity="center"
+            android:paddingRight="10dp"
+
+            >
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="服务时效"
+                />
+
+            <RatingBar
+                android:id="@+id/ratingBar1"
+                android:numStars="5"
+                android:rating="5"
+                android:stepSize="0.1"
+                android:layout_width="wrap_content"
+                style="@style/mypjRatingBar"
+                android:layout_height="30dp">
+            </RatingBar>
+
+            <TextView
+                android:id="@+id/tv_bsxl_model"
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:text="5.0分"
+                android:layout_marginLeft="12dp"
+
+                android:textSize="14sp"
+                />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/llyt_pj2"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal"
+            android:paddingLeft="10dp"
+            android:gravity="center"
+            android:paddingRight="10dp"
+            >
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="技术水平"
+                />
+
+            <RatingBar
+                android:id="@+id/ratingBar2"
+                android:numStars="5"
+                android:rating="5"
+                android:stepSize="0.1"
+                android:layout_width="wrap_content"
+                style="@style/mypjRatingBar"
+                android:layout_height="30dp">
+            </RatingBar>
+
+            <TextView
+                android:id="@+id/tv_fw_model"
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:text="5.0分    "
+                android:layout_marginLeft="12dp"
+                android:textSize="14sp"
+                />
+
+
+        </LinearLayout>
+    <LinearLayout
+        android:id="@+id/llyt_pj3"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:paddingLeft="10dp"
+        android:gravity="center"
+        android:paddingRight="10dp"
+        >
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="服务态度"
+            />
+
+        <RatingBar
+            android:id="@+id/ratingBar3"
+            android:numStars="5"
+            android:rating="5"
+            android:stepSize="0.1"
+            android:layout_width="wrap_content"
+            style="@style/mypjRatingBar"
+            android:layout_height="30dp">
+        </RatingBar>
+
+        <TextView
+            android:id="@+id/tv_fw_mode3"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:text="5.0分    "
+            android:layout_marginLeft="12dp"
+            android:textSize="14sp"
+            />
+
+
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="12dp"
+        android:background="@color/colorebebeb"
+        />
+    <android.support.v7.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@drawable/btn_blue_normal_selector_corners_5"
+        android:layout_marginLeft="18dp"
+        android:layout_marginRight="18dp"
+        android:layout_marginTop="20dp"
+        android:text="确认评价"
+        android:textSize="@dimen/text_size20_48"
+        android:textColor="@color/white"
+        />
+</LinearLayout>

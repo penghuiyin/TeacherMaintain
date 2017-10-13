@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/appbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <com.hnrheducation.teachermaintain.view.TitleWidget
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_scrollFlags="scroll|enterAlways"
+        app:layout_collapseMode="pin"
+        />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            >
+            <View
+                android:layout_width="40dp"
+                android:layout_height="match_parent"/>
+    <android.support.v7.widget.AppCompatTextView
+    android:layout_width="0dp"
+    android:layout_weight="1"
+    android:layout_height="wrap_content"
+    android:text="编号"
+    android:textColor="@color/color23a6ea"
+    android:drawableLeft="@mipmap/wdsb_wl_icon_bh"
+    android:drawablePadding="3dp"
+    android:textSize="@dimen/text_size16_34"
+
+    />
+            <android.support.v7.widget.AppCompatTextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="使用者"
+                android:textColor="@color/color23a6ea"
+                android:drawableLeft="@mipmap/wdsb_wl_icon_syz"
+                android:drawablePadding="3dp"
+                android:textSize="@dimen/text_size16_34"
+
+                />
+            <android.support.v7.widget.AppCompatTextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="位置"
+                android:textColor="@color/color23a6ea"
+                android:drawableLeft="@mipmap/wdsb_wl_icon_wz"
+                android:drawablePadding="3dp"
+                android:textSize="@dimen/text_size16_34"
+
+                />
+            <android.support.v7.widget.AppCompatTextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="状态"
+                android:textColor="@color/color23a6ea"
+                android:drawableLeft="@mipmap/wdsb_wl_icon_zt"
+                android:drawablePadding="3dp"
+                android:textSize="@dimen/text_size16_34"
+
+                />
+        </LinearLayout>
+    </android.support.design.widget.AppBarLayout>
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        >
+
+    </android.support.v7.widget.RecyclerView>
+</android.support.design.widget.CoordinatorLayout>

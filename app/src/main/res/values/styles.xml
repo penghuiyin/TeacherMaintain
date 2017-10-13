@@ -1,0 +1,60 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <!-- 默认title的自定义属性-->
+    <declare-styleable name="title_widget_layout">
+        <!-- 返回键的按钮显示-->
+        <attr name="title_miv_back" format="reference"/>
+        <!-- 返回文字的显示-->
+        <attr name="title_tv_back" format="string"/>
+        <!-- 标题文字的显示-->
+        <attr name="title_text" format="string"/>
+        <!-- 右边第一个图标的显示-->
+        <attr name="title_miv_right1" format="reference"/>
+        <!-- 右边第二个图标的显示-->
+        <attr name="title_miv_right2" format="reference"/>
+        <!-- 右边第一个文字的显示-->
+        <attr name="title_tv_right3" format="string"/>
+        <!-- 右边第二个文字的显示-->
+        <attr name="title_tv_right4" format="string"/>
+        <!-- Title的颜色-->
+        <attr name="title_bg_color" format="reference|color"/>
+        <!-- 设置电池缆的颜色-->
+        <attr name="title_stu_color" format="reference|color"/>
+    </declare-styleable>
+    <style name="Theme.NoTitleBar" parent="@style/Theme.Design.Light.NoActionBar">
+    </style>
+
+    <!--TabLayout字体的大小-->
+    <style name="TabLayoutTextStyle">
+        <item name="android:textSize">18sp</item>
+    </style>
+    <!-- cardView的配置-->
+    <style name="AppCardView" parent="@style/CardView.Light">
+        <item name="cardPreventCornerOverlap">false</item>
+        <item name="cardUseCompatPadding">true</item>
+        <item name="cardElevation">3dp</item>
+        <item name="cardCornerRadius">3dp</item>
+    </style>
+    <style name="BrandedSwitch.control" parent="Theme.AppCompat.Light">
+        <item name="colorControlActivated">@color/colorPrimary</item>
+        <!-- Inactive thumb color switch关闭时的拇指按钮的颜色 -->
+        <!--<item name="colorSwitchThumbNormal">@color/c12</item>-->
+        <!-- Inactive track color(30% transparency) switch关闭时的轨迹的颜色  30%这个颜色 -->
+        <!--<item name="android:colorForeground">@color/colorbule2</item>-->
+    </style>
+    <!-- 设置自定义星星设置小星星 -->
+    <style name="mysmallRatingBar" parent="@android:style/Widget.RatingBar">
+        <item name="android:progressDrawable">@drawable/smallratingbar</item>
+    </style>
+    <!-- 设置自定义星星设置评价星星 -->
+    <style name="mypjRatingBar" parent="@android:style/Widget.RatingBar">
+        <item name="android:progressDrawable">@drawable/pjsmallratingbar</item>
+    </style>
+</resources>

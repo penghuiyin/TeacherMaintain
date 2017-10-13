@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+    <com.hnrheducation.teachermaintain.view.TitleWidget
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/border_circle_radius"
+    android:layout_marginTop="30dp"
+    android:layout_marginBottom="30dp"
+    android:layout_marginLeft="16dp"
+    android:layout_marginRight="16dp"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    >
+<ImageView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@mipmap/login_logo"
+    android:layout_centerHorizontal="true"
+    android:layout_marginTop="40dp"
+    />
+<android.support.v7.widget.AppCompatTextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="登录报修账号"
+    android:textColor="@color/color9999"
+    android:textSize="@dimen/text_size26_56"
+
+    android:layout_marginTop="18dp"
+    />
+    <android.support.v7.widget.AppCompatEditText
+        android:id="@+id/acet_username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@mipmap/login_input"
+        android:textColor="@color/black"
+        android:hint="请输入您的账号"
+        android:paddingLeft="30dp"
+        android:layout_marginTop="34dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        />
+    <android.support.v7.widget.AppCompatEditText
+        android:id="@+id/acet_userpwd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@mipmap/login_input"
+        android:textColor="@color/black"
+        android:hint="请输入您的账号"
+        android:paddingLeft="30dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        />
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/acbtn_Login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@mipmap/login_btn_dl"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:textColor="@color/white"
+        android:text="登录"
+        android:textSize="@dimen/text_size20_48"
+        />
+</LinearLayout>
+</LinearLayout>

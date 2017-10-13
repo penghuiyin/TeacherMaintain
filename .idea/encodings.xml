@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/hnrheducation/teachermaintain/base/TheApplication.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/hnrheducation/teachermaintain/utils/ActivityManagerUtils.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/hnrheducation/teachermaintain/utils/NetWorkUtils.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/hnrheducation/teachermaintain/utils/ScreenSizeUtils.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/hnrheducation/teachermaintain/utils/ToastUtils.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/btn_blue_normal_selector_corners_5.xml" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/btn_green_normal_selector_corners_5.xml" charset="GBK" />
+  </component>
+</project>

@@ -1,0 +1,1 @@
+include ':app', ':zing_xing', ':zing_xing2', ':lib-zxing1'

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/touch_bg">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:orientation="horizontal"
+    android:gravity="center_vertical"
+    >
+<android.support.v7.widget.AppCompatTextView
+    android:layout_width="40dp"
+    android:layout_height="wrap_content"
+    android:text="01"
+    android:gravity="center_horizontal"
+    android:textColor="@color/color666"
+    />
+    <android.support.v7.widget.AppCompatTextView
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:text="63985"
+        android:textColor="@color/main_black"
+        android:textSize="@dimen/text_size18_44"
+        android:gravity="center_horizontal"
+        />
+    <android.support.v7.widget.AppCompatTextView
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:text="教师"
+        android:textColor="@color/main_black"
+        android:textSize="@dimen/text_size18_44"
+        android:gravity="center_horizontal"
+        />
+    <android.support.v7.widget.AppCompatTextView
+    android:layout_width="0dp"
+    android:layout_weight="1"
+    android:layout_height="wrap_content"
+    android:text="5.1班"
+    android:textColor="@color/main_black"
+    android:textSize="@dimen/text_size18_44"
+        android:gravity="center_horizontal"
+    />
+    <android.support.v7.widget.AppCompatTextView
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:text="4.8分"
+        android:textColor="@color/color23a6ea"
+        android:textSize="@dimen/text_size18_44"
+        android:gravity="center_horizontal"
+        />
+
+
+</LinearLayout>
+    <View
+    android:layout_width="match_parent"
+    android:layout_height="1dp"
+    android:background="@color/colod9d9d9"
+    />
+  </LinearLayout>
